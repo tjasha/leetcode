@@ -1,3 +1,3 @@
 # leetcode
 
-Syncing leetcode challenges when i solve them  
+Syncing leetcode challenges  
