@@ -22,14 +22,11 @@ func longestCommonPrefix(strs []string) string {
 		//going throught all words for letter possition j
 		for i := 1; i <= len(strs)-1; i++ {
 
-			strArr1 := []rune(strs[i-1])
-			strArr2 := []rune(strs[i])
-
-			if strArr1[j] != strArr2[j] {
+			if []rune(strs[i-1])[j] != []rune(strs[i])[j] {
 				correct = false
 				break
 			} else {
-				next = strArr1[j]
+				next = []rune(strs[i-1])[j]
 			}
 		}
 
