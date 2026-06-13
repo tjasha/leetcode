@@ -8,7 +8,7 @@ func longestCommonPrefix(strs []string) string {
 	correct := true
 	var next rune
 
-	//going through letters of the word
+	//going through letters of the words
 	for j := 0; j < len(strs[0]); j++ {
 
 		//going throught all words for letter possition j
