@@ -39,7 +39,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
         }
 
 		node := &ListNode{Val: currentVal}
-		fmt.Println(node)
 
 		if l3 == nil {
 			l3 = node
@@ -48,7 +47,6 @@ func addTwoNumbers(l1 *ListNode, l2 *ListNode) *ListNode {
 			current.Next = node
 			current = node
 		}
-		fmt.Println("l3: ", *l3, "current: ", current)
 	}
 
 	return l3
